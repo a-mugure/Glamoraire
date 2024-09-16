@@ -1,0 +1,30 @@
+.background {
+background-color:pink;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 40%;
+  max-width: 1000px;
+}
+
+.text-content {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 5px 0;
+}
+
+p {
+  margin-bottom: 10px;
+}

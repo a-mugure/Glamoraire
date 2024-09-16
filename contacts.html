@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* Global Styles */
+            body {
+              font-family: Arial, sans-serif;
+              margin: 0;
+              padding: 0;
+            }
+          
+            /* Contacts Section Styles */
+            #contacts {
+              background-color: #f9f9f9;
+              padding: 20px;
+            }
+          
+            #contacts h1 {
+              color: #333;
+              font-size: 24px;
+              margin-bottom: 10px;
+            }
+          
+            #contacts p {
+              color: #666;
+              font-size: 16px;
+              margin-bottom: 20px;
+            }
+          
+            /* Form Styles */
+            form {
+              margin-top: 20px;
+            }
+          
+            label {
+              display: block;
+              margin-bottom: 10px;
+            }
+          
+            input[type="text"], input[type="email"], textarea {
+              width: 100%;
+              padding: 10px;
+              margin-bottom: 20px;
+              border: 1px solid #ccc;
+            }
+          
+            input[type="submit"] {
+              background-color: #4CAF50;
+              color: #fff;
+              padding: 10px 20px;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+            }
+          
+            input[type="submit"]:hover {
+              background-color: #3e8e41;
+            }
+          
+            /* Social Media Links Styles */
+            ul {
+              list-style: none;
+              padding: 0;
+              margin: 0;
+            }
+          
+            li {
+              display: inline-block;
+              margin-right: 20px;
+            }
+          
+            a {
+              color: #337ab7;
+              text-decoration: none;
+            }
+          
+            a:hover {
+              color: #23527c;
+            }
+          
+            .fab {
+              font-size: 24px;
+              color: #337ab7;
+            }
+          
+            .fab:hover {
+              color: #23527c;
+            }
+          </style>
+    </head>
+    <body>
+        <section id="contacts">
+            <h1>Get in Touch</h1>
+            <img src="Images/logo.png">
+            <p>Glamoraire</p>
+            <p>Address: Nairobi CBD, Kenya</p>
+            <p>Phone: +254712345678</p>
+            <p>Email: @glamoraire.co.ke</p>
+            <form>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name"><br><br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email"><br><br>
+              <label for="message">Message:</label>
+              <textarea id="message" name="message"></textarea><br><br>
+              <input type="submit" value="Send">
+            </form>
+            <p>Follow us on social media:</p>
+            <ul>
+              <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+          </section>
+    </body>
+</html>
